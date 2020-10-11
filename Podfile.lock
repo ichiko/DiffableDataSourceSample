@@ -1,0 +1,23 @@
+PODS:
+  - DiffableDataSources (0.4.0):
+    - DifferenceKit/AppKitExtension (~> 1.1)
+    - DifferenceKit/UIKitExtension (~> 1.1)
+  - DifferenceKit/Core (1.1.5)
+  - DifferenceKit/UIKitExtension (1.1.5):
+    - DifferenceKit/Core
+
+DEPENDENCIES:
+  - DiffableDataSources
+
+SPEC REPOS:
+  trunk:
+    - DiffableDataSources
+    - DifferenceKit
+
+SPEC CHECKSUMS:
+  DiffableDataSources: 80396cec405c9b29e1e07b55c9be7d11b46c8741
+  DifferenceKit: 516f12e336ed65a3a0665847b5c3cb5cad4bd4ea
+
+PODFILE CHECKSUM: 2ead53b79bf83f077e3b4b663da69f6348a7e40a
+
+COCOAPODS: 1.9.3
