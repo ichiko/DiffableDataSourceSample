@@ -3,13 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		778B61B31B6B62E7ED8318AC /* Pods_DiffableDataSourceSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52541B7403AC4A33E16F89AC /* Pods_DiffableDataSourceSample.framework */; };
 		EC5629D825329ED600CD3C72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5629D725329ED600CD3C72 /* AppDelegate.swift */; };
-		EC5629DA25329ED600CD3C72 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5629D925329ED600CD3C72 /* SceneDelegate.swift */; };
 		EC5629DC25329ED600CD3C72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5629DB25329ED600CD3C72 /* ViewController.swift */; };
 		EC5629DF25329ED600CD3C72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC5629DD25329ED600CD3C72 /* Main.storyboard */; };
 		EC5629E125329ED800CD3C72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC5629E025329ED800CD3C72 /* Assets.xcassets */; };
@@ -22,7 +21,6 @@
 		62855D44B2EDDE24D500AAE0 /* Pods-DiffableDataSourceSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiffableDataSourceSample.debug.xcconfig"; path = "Target Support Files/Pods-DiffableDataSourceSample/Pods-DiffableDataSourceSample.debug.xcconfig"; sourceTree = "<group>"; };
 		EC5629D425329ED600CD3C72 /* DiffableDataSourceSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiffableDataSourceSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC5629D725329ED600CD3C72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EC5629D925329ED600CD3C72 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EC5629DB25329ED600CD3C72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EC5629DE25329ED600CD3C72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC5629E025329ED800CD3C72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -48,7 +46,6 @@
 				62855D44B2EDDE24D500AAE0 /* Pods-DiffableDataSourceSample.debug.xcconfig */,
 				508B0854FC06209AC8C5FC57 /* Pods-DiffableDataSourceSample.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -82,7 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				EC5629D725329ED600CD3C72 /* AppDelegate.swift */,
-				EC5629D925329ED600CD3C72 /* SceneDelegate.swift */,
 				EC5629DB25329ED600CD3C72 /* ViewController.swift */,
 				EC5629DD25329ED600CD3C72 /* Main.storyboard */,
 				EC5629E025329ED800CD3C72 /* Assets.xcassets */,
@@ -209,7 +205,6 @@
 			files = (
 				EC5629DC25329ED600CD3C72 /* ViewController.swift in Sources */,
 				EC5629D825329ED600CD3C72 /* AppDelegate.swift in Sources */,
-				EC5629DA25329ED600CD3C72 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +280,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -339,7 +334,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
